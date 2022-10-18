@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <div id="container">
         <Search />
-        <Route path="/country/:countryName" component={ props => (
+        <Route path="goldmedalmetrics/country/:countryName" component={ props => (
         <div>
           <CountryDetail {...props}/>
           <GoldMedalList {...props}/>
